@@ -1,9 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { App } from "./components/App.tsx";
+import { Game } from "./components/Game.tsx";
+
+import './styles/styles.scss';
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
-        <App />
+        <Game />
     </StrictMode>
 );
